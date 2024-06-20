@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyXChain.API", "EnergyXChain.API\EnergyXChain.API.csproj", "{3736330A-2C1E-4DA6-8AE8-C8234E181947}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3736330A-2C1E-4DA6-8AE8-C8234E181947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3736330A-2C1E-4DA6-8AE8-C8234E181947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3736330A-2C1E-4DA6-8AE8-C8234E181947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3736330A-2C1E-4DA6-8AE8-C8234E181947}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
