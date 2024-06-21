@@ -1,8 +1,8 @@
-using BoraCW.API.Bora.Shared.Domain.Repositories;
+using EnergyXChain.API.Shared.Domain.Repositories;
 using EnergyXChain.API.Shared.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
 
-namespace BoraCW.API.Bora.Shared.Persistence.Repositories;
+namespace EnergyXChain.API.Shared.Persistence.Repositories;
 
 public class BaseRepository<TEntity, TKey> : IBaseRepository<TEntity, TKey> where TEntity : class
 {

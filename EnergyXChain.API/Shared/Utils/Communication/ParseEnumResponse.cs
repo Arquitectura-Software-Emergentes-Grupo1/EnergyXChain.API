@@ -1,4 +1,4 @@
-namespace BoraCW.API.Bora.Shared.Utils.Communication;
+namespace EnergyXChain.API.Shared.Utils.Communication;
 
 public class ParseEnumResponse<TEnum> where TEnum : Enum
 {

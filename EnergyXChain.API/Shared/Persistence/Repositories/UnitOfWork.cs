@@ -1,7 +1,7 @@
-using BoraCW.API.Bora.Shared.Domain.Repositories;
+using EnergyXChain.API.Shared.Domain.Repositories;
 using EnergyXChain.API.Shared.Persistence.Contexts;
 
-namespace BoraCW.API.Bora.Shared.Persistence.Repositories;
+namespace EnergyXChain.API.Shared.Persistence.Repositories;
 
 public class UnitOfWork : IUnitOfWork
 {

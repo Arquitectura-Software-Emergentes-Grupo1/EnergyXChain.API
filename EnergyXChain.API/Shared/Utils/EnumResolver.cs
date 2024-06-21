@@ -1,8 +1,7 @@
-using BoraCW.API.Bora.Shared.Extensions;
-using BoraCW.API.Bora.Shared.Utils.Communication;
 using EnergyXChain.API.Shared.Extensions;
+using EnergyXChain.API.Shared.Utils.Communication;
 
-namespace BoraCW.API.Bora.Shared.Utils;
+namespace EnergyXChain.API.Shared.Utils;
 
 public static class EnumResolver<TEnum> where TEnum : Enum
 {

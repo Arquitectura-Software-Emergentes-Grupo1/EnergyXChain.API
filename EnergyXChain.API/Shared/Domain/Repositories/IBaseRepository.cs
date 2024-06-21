@@ -1,4 +1,4 @@
-namespace BoraCW.API.Bora.Shared.Domain.Repositories;
+namespace EnergyXChain.API.Shared.Domain.Repositories;
 
 public interface IBaseRepository<TEntity, in TKey>
 {

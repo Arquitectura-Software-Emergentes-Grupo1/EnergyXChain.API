@@ -1,4 +1,4 @@
-namespace BoraCW.API.Bora.Shared.Domain.Service.Communication;
+namespace EnergyXChain.API.Shared.Domain.Service.Communication;
 
 public class AnyResponse : BaseResponse<Object>
 {

@@ -1,6 +1,6 @@
 using System.Globalization;
 
-namespace BoraCW.API.Bora.Shared.Extensions;
+namespace EnergyXChain.API.Shared.Extensions;
 
 public class AppException : Exception
 {
