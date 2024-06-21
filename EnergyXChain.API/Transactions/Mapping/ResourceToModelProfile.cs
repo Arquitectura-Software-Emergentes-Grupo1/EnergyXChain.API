@@ -16,5 +16,8 @@ public class ResourceToModelProfile : Profile
 
         // Plan
         CreateMap<CreatePlanResource, Plan>();
+
+        // Sale
+        CreateMap<CreateSaleResource, Sale>();
     }
 }

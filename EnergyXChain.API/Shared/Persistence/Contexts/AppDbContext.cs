@@ -80,6 +80,8 @@ public class AppDbContext : DbContext
 
         // Seeding
         modelBuilder.ApplyConfiguration(new SupplierSeeding());
+        modelBuilder.ApplyConfiguration(new CustomerSeeding());
+        modelBuilder.ApplyConfiguration(new PlanSeeding());
 
         // SnakeCase
         modelBuilder.ConvertAllToSnakeCase();
