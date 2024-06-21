@@ -7,6 +7,7 @@ using EnergyXChain.API.Transactions.Domain.Services;
 using EnergyXChain.API.Transactions.Mapping;
 using EnergyXChain.API.Transactions.Persistence.Repositories;
 using EnergyXChain.API.Transactions.Service;
+using EnergyXChain.API.Transactions.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -56,6 +57,10 @@ builder.Services.AddCors();
 builder.Services.AddScoped<ISupplierRepository, SupplierRepository>();
 builder.Services.AddScoped<IBaseRepository<Supplier, int>, SupplierRepository>();
 builder.Services.AddScoped<ISupplierService, SupplierService>();
+
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<IBaseRepository<Customer, int>, CustomerRepository>();
+builder.Services.AddScoped<ICustomerService, CustomerService>();
 
 // Shared Services
 // -- Unit Of Work

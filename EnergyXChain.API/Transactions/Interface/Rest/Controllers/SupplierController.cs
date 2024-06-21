@@ -12,13 +12,13 @@ namespace EnergyXChain.API.Transactions.Interface.Rest.Controllers;
 [ApiController]
 [Route("api/v0/[controller]")]
 [Produces(MediaTypeNames.Application.Json)]
-[SwaggerTag("Controller for TransactionSuppliers - CRUD 💎")]
+[SwaggerTag("Controller for Suppliers - CRUD 💎")]
 public class SupplierController : ControllerBase
 {
     private readonly ISupplierService _supplierService;
     private readonly IMapper _mapper;
 
-    public  SupplierController(ISupplierService supplierService, IMapper mapper)
+    public SupplierController(ISupplierService supplierService, IMapper mapper)
     {
         _supplierService = supplierService;
         _mapper = mapper;

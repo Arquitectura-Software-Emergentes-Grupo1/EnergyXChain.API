@@ -10,5 +10,8 @@ public class ModelToResourceProfile : Profile
     {
         // Supplier
         CreateMap<Supplier, SupplierResource>();
+
+        // Customer
+        CreateMap<Customer, CustomerResource>();
     }
 }
