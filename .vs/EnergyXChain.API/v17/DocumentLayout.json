@@ -1,88 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{3736330A-2C1E-4DA6-8AE8-C8234E181947}|EnergyXChain.API\\EnergyXChain.API.csproj|d:\\upc\\ciclo 2024-1\\arquitectura de software emergentes\\clones\\energyxchain.api\\energyxchain.api\\transactions\\interface\\rest\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3736330A-2C1E-4DA6-8AE8-C8234E181947}|EnergyXChain.API\\EnergyXChain.API.csproj|solutionrelative:energyxchain.api\\transactions\\interface\\rest\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3736330A-2C1E-4DA6-8AE8-C8234E181947}|EnergyXChain.API\\EnergyXChain.API.csproj|d:\\upc\\ciclo 2024-1\\arquitectura de software emergentes\\clones\\energyxchain.api\\energyxchain.api\\transactions\\interface\\rest\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3736330A-2C1E-4DA6-8AE8-C8234E181947}|EnergyXChain.API\\EnergyXChain.API.csproj|solutionrelative:energyxchain.api\\transactions\\interface\\rest\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3736330A-2C1E-4DA6-8AE8-C8234E181947}|EnergyXChain.API\\EnergyXChain.API.csproj|d:\\upc\\ciclo 2024-1\\arquitectura de software emergentes\\clones\\energyxchain.api\\energyxchain.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3736330A-2C1E-4DA6-8AE8-C8234E181947}|EnergyXChain.API\\EnergyXChain.API.csproj|solutionrelative:energyxchain.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3736330A-2C1E-4DA6-8AE8-C8234E181947}|EnergyXChain.API\\EnergyXChain.API.csproj|d:\\upc\\ciclo 2024-1\\arquitectura de software emergentes\\clones\\energyxchain.api\\energyxchain.api\\shared\\persistence\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3736330A-2C1E-4DA6-8AE8-C8234E181947}|EnergyXChain.API\\EnergyXChain.API.csproj|solutionrelative:energyxchain.api\\shared\\persistence\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API\\Transactions\\Interface\\Rest\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "EnergyXChain.API\\Transactions\\Interface\\Rest\\Controllers\\CustomerController.cs",
-              "ToolTip": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API\\Transactions\\Interface\\Rest\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "EnergyXChain.API\\Transactions\\Interface\\Rest\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T04:37:22.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SupplierController.cs",
-              "DocumentMoniker": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API\\Transactions\\Interface\\Rest\\Controllers\\SupplierController.cs",
-              "RelativeDocumentMoniker": "EnergyXChain.API\\Transactions\\Interface\\Rest\\Controllers\\SupplierController.cs",
-              "ToolTip": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API\\Transactions\\Interface\\Rest\\Controllers\\SupplierController.cs",
-              "RelativeToolTip": "EnergyXChain.API\\Transactions\\Interface\\Rest\\Controllers\\SupplierController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T04:37:15.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API\\Program.cs",
-              "RelativeDocumentMoniker": "EnergyXChain.API\\Program.cs",
-              "ToolTip": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API\\Program.cs",
-              "RelativeToolTip": "EnergyXChain.API\\Program.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAuwGwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T04:32:32.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API\\Shared\\Persistence\\Contexts\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "EnergyXChain.API\\Shared\\Persistence\\Contexts\\AppDbContext.cs",
-              "ToolTip": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API\\Shared\\Persistence\\Contexts\\AppDbContext.cs",
-              "RelativeToolTip": "EnergyXChain.API\\Shared\\Persistence\\Contexts\\AppDbContext.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T04:32:13.21Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

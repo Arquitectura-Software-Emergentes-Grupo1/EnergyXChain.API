@@ -13,5 +13,8 @@ public class ResourceToModelProfile : Profile
 
         // Customer
         CreateMap<CreateCustomerResource, Customer>();
+
+        // Plan
+        CreateMap<CreatePlanResource, Plan>();
     }
 }

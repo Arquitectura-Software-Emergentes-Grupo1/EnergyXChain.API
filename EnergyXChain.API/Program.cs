@@ -62,6 +62,10 @@ builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 builder.Services.AddScoped<IBaseRepository<Customer, int>, CustomerRepository>();
 builder.Services.AddScoped<ICustomerService, CustomerService>();
 
+builder.Services.AddScoped<IPlanRepository, PlanRepository>();
+builder.Services.AddScoped<IBaseRepository<Plan, int>, PlanRepository>();
+builder.Services.AddScoped<IPlanService, PlanService>();
+
 // Shared Services
 // -- Unit Of Work
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
