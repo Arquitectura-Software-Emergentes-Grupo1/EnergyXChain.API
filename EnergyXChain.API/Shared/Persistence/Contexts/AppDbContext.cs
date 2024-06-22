@@ -24,18 +24,26 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Supplier>().ToTable("Suppliers");
         modelBuilder.Entity<Supplier>().HasKey(supplier => supplier.Id);
         modelBuilder.Entity<Supplier>().Property(supplier => supplier.Id).ValueGeneratedOnAdd();
+        modelBuilder.Entity<Supplier>().Property(supplier => supplier.Email);
+        modelBuilder.Entity<Supplier>().Property(supplier => supplier.Password);
         modelBuilder.Entity<Supplier>().Property(supplier => supplier.Name);
+        modelBuilder.Entity<Supplier>().Property(supplier => supplier.Description);
+        modelBuilder.Entity<Supplier>().Property(supplier => supplier.Phone);
         modelBuilder.Entity<Supplier>()
-            .HasMany(supplier => supplier.Sales)
-            .WithOne(sale => sale.Supplier)
-            .HasForeignKey(sale => sale.SupplierId)
+            .HasMany(supplier => supplier.Plans)
+            .WithOne(plan => plan.Supplier)
+            .HasForeignKey(plan => plan.SupplierId)
             .HasConstraintName("FkSupplierId");
 
         // TransactionCustomer
         modelBuilder.Entity<Customer>().ToTable("Customers");
         modelBuilder.Entity<Customer>().HasKey(customer => customer.Id);
         modelBuilder.Entity<Customer>().Property(customer => customer.Id).ValueGeneratedOnAdd();
+        modelBuilder.Entity<Customer>().Property(customer => customer.Email);
+        modelBuilder.Entity<Customer>().Property(customer => customer.Password);
         modelBuilder.Entity<Customer>().Property(customer => customer.Name);
+        modelBuilder.Entity<Customer>().Property(customer => customer.Phone);
+        modelBuilder.Entity<Customer>().Property(customer => customer.Age);
         modelBuilder.Entity<Customer>()
             .HasMany(customer => customer.Sales)
             .WithOne(sale => sale.Customer)
@@ -47,6 +55,8 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Plan>().HasKey(plan => plan.Id);
         modelBuilder.Entity<Plan>().Property(plan => plan.Id).ValueGeneratedOnAdd();
         modelBuilder.Entity<Plan>().Property(plan => plan.Name);
+        modelBuilder.Entity<Plan>().Property(plan => plan.Fee);
+        modelBuilder.Entity<Plan>().Property(plan => plan.SupplierId);
         modelBuilder.Entity<Plan>()
             .HasMany(plan => plan.Sales)
             .WithOne(sale => sale.Plan)
@@ -57,7 +67,9 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Sale>().ToTable("Sales");
         modelBuilder.Entity<Sale>().HasKey(sale => sale.Id);
         modelBuilder.Entity<Sale>().Property(sale => sale.Id).ValueGeneratedOnAdd();
-        modelBuilder.Entity<Sale>().Property(sale => sale.SupplierId);
+        modelBuilder.Entity<Sale>().Property(sale => sale.Amount);
+        modelBuilder.Entity<Sale>().Property(sale => sale.Date);
+        modelBuilder.Entity<Sale>().Property(sale => sale.State);
         modelBuilder.Entity<Sale>().Property(sale => sale.CustomerId);
         modelBuilder.Entity<Sale>().Property(sale => sale.PlanId);
         /*

@@ -24,18 +24,10 @@ public class SaleService : ISaleService
     {
         try
         {
+            newSale.Date = DateTime.UtcNow;
             await _saleRepository.AddAsync(newSale);
             await _unitOfWork.CompleteAsync();
-
-            // Recargar la entidad para incluir las propiedades de navegación
-            var sale = await _saleRepository.FindByIdAsync(newSale.Id);
-
-            if (sale == null)
-            {
-                return new SaleResponse("Error loading the sale after adding it.");
-            }
-
-            return new SaleResponse(sale);
+            return new SaleResponse(newSale);
         }
         catch (Exception exception)
         {

@@ -3,9 +3,9 @@
 public class Sale
 {
     public int Id { get; set; }
-
-    public int SupplierId { get; set; }
-    public Supplier Supplier { get; set; }
+    public long Amount { get; set; }
+    public DateTime Date {  get; set; }
+    public bool State {  get; set; }
 
     public int CustomerId { get; set; }
     public Customer Customer { get; set; }

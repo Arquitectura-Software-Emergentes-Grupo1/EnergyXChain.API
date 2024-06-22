@@ -2,7 +2,8 @@
 
 public class CreateSaleResource
 {
-    public int SupplierId { get; set; }
+    public long Amount { get; set; }
+    public bool State { get; set; }
     public int CustomerId { get; set; }
     public int PlanId { get; set; }
 }

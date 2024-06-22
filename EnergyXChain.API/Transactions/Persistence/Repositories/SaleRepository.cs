@@ -14,19 +14,11 @@ public class SaleRepository : BaseRepository<Sale, int>, ISaleRepository
 
     public async Task<IEnumerable<Sale>> ListAllAsync()
     {
-        return await Entities
-            .Include(s => s.Customer)
-            .Include(s => s.Supplier)
-            .Include(s => s.Plan)
-            .ToListAsync();
+        return await Entities.ToListAsync();
     }
 
     public async Task<Sale?> FindByIdAsync(int id)
     {
-        return await Entities
-            .Include(s => s.Customer)
-            .Include(s => s.Supplier)
-            .Include(s => s.Plan)
-            .FirstOrDefaultAsync(s => s.Id == id);
+        return await Entities.FindAsync(id);
     }
 }

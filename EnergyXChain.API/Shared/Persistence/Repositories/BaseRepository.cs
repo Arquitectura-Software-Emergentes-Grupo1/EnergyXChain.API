@@ -12,7 +12,7 @@ public class BaseRepository<TEntity, TKey> : IBaseRepository<TEntity, TKey> wher
 
     public BaseRepository(AppDbContext appDbContext)
     {
-        AppDbContext = appDbContext;  
+        AppDbContext = appDbContext;
         Entities = appDbContext.Set<TEntity>();
     }
 
