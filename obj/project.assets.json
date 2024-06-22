@@ -1371,11 +1371,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API\\EnergyXChain.API.csproj",
+      "projectUniqueName": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API.csproj",
       "projectName": "EnergyXChain.API",
-      "projectPath": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API\\EnergyXChain.API.csproj",
+      "projectPath": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API.csproj",
       "packagesPath": "C:\\Users\\oizzr\\.nuget\\packages\\",
-      "outputPath": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API\\obj\\",
+      "outputPath": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\oizzr\\AppData\\Roaming\\NuGet\\NuGet.Config",

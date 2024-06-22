@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyXChain.API", "EnergyXChain.API\EnergyXChain.API.csproj", "{3736330A-2C1E-4DA6-8AE8-C8234E181947}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyXChain.API", "EnergyXChain.API.csproj", "{3736330A-2C1E-4DA6-8AE8-C8234E181947}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

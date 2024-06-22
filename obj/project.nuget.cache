@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NfYSKoAPH4KMTd0bCs+FXipxL1HwmJnEpkIR+KueqDaWqR8KyTqJXs4CmzmabWT1C8SB2xNDZChL05dHs9DSdg==",
+  "dgSpecHash": "99+jD4M8NFPxqwED3BNkW/ei5VLsG1ltF4D4eStnSiFQoruWiH1kNjsr8/ZEqjNqTYYnG6VxNk0gyQfBuSgwTg==",
   "success": true,
-  "projectFilePath": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API\\EnergyXChain.API.csproj",
+  "projectFilePath": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oizzr\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\oizzr\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
