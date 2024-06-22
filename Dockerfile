@@ -6,10 +6,10 @@ EXPOSE 80
 # Usar la imagen oficial de .NET 8.0 SDK para la fase de construcción
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-COPY ["EnergyXChain.API/EnergyXChain.API.csproj", "EnergyXChain.API/"]
-RUN dotnet restore "EnergyXChain.API/EnergyXChain.API.csproj"
+COPY ["EnergyXChain.API.csproj", "."]
+RUN dotnet restore "EnergyXChain.API.csproj"
 COPY . .
-WORKDIR "/src/EnergyXChain.API"
+WORKDIR "/src"
 RUN dotnet build "EnergyXChain.API.csproj" -c Release -o /app/build
 
 # Publicar la aplicación
