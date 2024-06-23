@@ -89,13 +89,13 @@ using (var scope = app.Services.CreateScope())
 using (var context = scope.ServiceProvider.GetService<AppDbContext>())
 {
     // context?.Database.EnsureCreated();
-    context?.Database.EnsureDeleted();
+    // context?.Database.EnsureDeleted();
     context?.Database.EnsureCreated();
 }
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+// if (app.Environment.IsDevelopment())
+// {
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
@@ -103,7 +103,7 @@ if (app.Environment.IsDevelopment())
         options.InjectStylesheet("/swagger-ui/dark-swagger.css");
         options.RoutePrefix = "swagger";
     });
-}
+// }
 
 app.UseCors(policyBuilder => policyBuilder
     .AllowAnyOrigin()

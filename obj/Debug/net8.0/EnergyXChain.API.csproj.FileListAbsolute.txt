@@ -80,3 +80,44 @@ D:\UPC\CICLO 2024-1\Arquitectura de Software Emergentes\Clones\EnergyXChain.API\
 D:\UPC\CICLO 2024-1\Arquitectura de Software Emergentes\Clones\EnergyXChain.API\obj\Debug\net8.0\EnergyXChain.API.pdb
 D:\UPC\CICLO 2024-1\Arquitectura de Software Emergentes\Clones\EnergyXChain.API\obj\Debug\net8.0\EnergyXChain.API.genruntimeconfig.cache
 D:\UPC\CICLO 2024-1\Arquitectura de Software Emergentes\Clones\EnergyXChain.API\obj\Debug\net8.0\ref\EnergyXChain.API.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\appsettings.Development.json
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\appsettings.json
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\EnergyXChain.API.exe
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\EnergyXChain.API.deps.json
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\EnergyXChain.API.runtimeconfig.json
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\EnergyXChain.API.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\EnergyXChain.API.pdb
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\AutoMapper.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\MySqlConnector.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\EnergyXChain.API.csproj.AssemblyReference.cache
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\EnergyXChain.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\EnergyXChain.API.AssemblyInfoInputs.cache
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\EnergyXChain.API.AssemblyInfo.cs
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\EnergyXChain.API.csproj.CoreCompileInputs.cache
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\EnergyXChain.API.MvcApplicationPartsAssemblyInfo.cs
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\EnergyXChain.API.MvcApplicationPartsAssemblyInfo.cache
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\EnergyXChain.API.sourcelink.json
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\staticwebassets.build.json
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\staticwebassets.development.json
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\staticwebassets\msbuild.EnergyXChain.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\staticwebassets\msbuild.build.EnergyXChain.API.props
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EnergyXChain.API.props
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EnergyXChain.API.props
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\scopedcss\bundle\EnergyXChain.API.styles.css
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\EnergyXChain.API.csproj.CopyComplete
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\EnergyXChain.API.dll
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\refint\EnergyXChain.API.dll
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\EnergyXChain.API.pdb
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\EnergyXChain.API.genruntimeconfig.cache
+D:\Github\EnergyXChain.API\obj\Debug\net8.0\ref\EnergyXChain.API.dll
