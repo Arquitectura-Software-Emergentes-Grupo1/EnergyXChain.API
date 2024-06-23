@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3736330A-2C1E-4DA6-8AE8-C8234E181947}|EnergyXChain.API.csproj|d:\\upc\\ciclo 2024-1\\arquitectura de software emergentes\\clones\\energyxchain.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3736330A-2C1E-4DA6-8AE8-C8234E181947}|EnergyXChain.API.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3736330A-2C1E-4DA6-8AE8-C8234E181947}|EnergyXChain.API.csproj|d:\\upc\\ciclo 2024-1\\arquitectura de software emergentes\\clones\\energyxchain.api\\energyxchain.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3736330A-2C1E-4DA6-8AE8-C8234E181947}|EnergyXChain.API.csproj|solutionrelative:energyxchain.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -23,25 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\Dockerfile",
-              "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\Dockerfile",
-              "RelativeToolTip": "Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-22T18:44:54.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EnergyXChain.API.csproj",
+              "Title": "EnergyXChain.API",
               "DocumentMoniker": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API.csproj",
               "RelativeDocumentMoniker": "EnergyXChain.API.csproj",
               "ToolTip": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API.csproj",
               "RelativeToolTip": "EnergyXChain.API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-06-22T18:41:36.238Z",
               "EditorCaption": ""
