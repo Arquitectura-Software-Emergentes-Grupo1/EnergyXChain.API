@@ -1,9 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.9.34728.123
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnergyXChain.API", "EnergyXChain.API.csproj", "{3736330A-2C1E-4DA6-8AE8-C8234E181947}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyXChain.API", "EnergyXChain.API.csproj", "{3736330A-2C1E-4DA6-8AE8-C8234E181947}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,11 +12,5 @@ Global
 		{3736330A-2C1E-4DA6-8AE8-C8234E181947}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3736330A-2C1E-4DA6-8AE8-C8234E181947}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3736330A-2C1E-4DA6-8AE8-C8234E181947}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5FC2AD85-33A9-4346-ABDF-02DB53518A7F}
 	EndGlobalSection
 EndGlobal
