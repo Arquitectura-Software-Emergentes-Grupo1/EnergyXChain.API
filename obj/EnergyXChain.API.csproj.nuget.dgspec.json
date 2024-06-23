@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API.csproj": {}
+    "D:\\Github\\EnergyXChain.API\\EnergyXChain.API.csproj": {}
   },
   "projects": {
-    "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API.csproj": {
+    "D:\\Github\\EnergyXChain.API\\EnergyXChain.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API.csproj",
+        "projectUniqueName": "D:\\Github\\EnergyXChain.API\\EnergyXChain.API.csproj",
         "projectName": "EnergyXChain.API",
-        "projectPath": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\EnergyXChain.API.csproj",
-        "packagesPath": "C:\\Users\\oizzr\\.nuget\\packages\\",
-        "outputPath": "D:\\UPC\\CICLO 2024-1\\Arquitectura de Software Emergentes\\Clones\\EnergyXChain.API\\obj\\",
+        "projectPath": "D:\\Github\\EnergyXChain.API\\EnergyXChain.API.csproj",
+        "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\EnergyXChain.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\oizzr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -93,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
