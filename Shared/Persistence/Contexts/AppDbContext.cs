@@ -23,7 +23,7 @@ public class AppDbContext : DbContext
         // TransactionSupllier
         modelBuilder.Entity<Supplier>().ToTable("Suppliers");
         modelBuilder.Entity<Supplier>().HasKey(supplier => supplier.Id);
-        modelBuilder.Entity<Supplier>().Property(supplier => supplier.Id).ValueGeneratedOnAdd();
+        modelBuilder.Entity<Supplier>().Property(supplier => supplier.Id);
         modelBuilder.Entity<Supplier>().Property(supplier => supplier.Email);
         modelBuilder.Entity<Supplier>().Property(supplier => supplier.Password);
         modelBuilder.Entity<Supplier>().Property(supplier => supplier.Name);
@@ -38,7 +38,7 @@ public class AppDbContext : DbContext
         // TransactionCustomer
         modelBuilder.Entity<Customer>().ToTable("Customers");
         modelBuilder.Entity<Customer>().HasKey(customer => customer.Id);
-        modelBuilder.Entity<Customer>().Property(customer => customer.Id).ValueGeneratedOnAdd();
+        modelBuilder.Entity<Customer>().Property(customer => customer.Id);
         modelBuilder.Entity<Customer>().Property(customer => customer.Email);
         modelBuilder.Entity<Customer>().Property(customer => customer.Password);
         modelBuilder.Entity<Customer>().Property(customer => customer.Name);
