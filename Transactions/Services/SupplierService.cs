@@ -54,4 +54,9 @@ public class SupplierService : ISupplierService
             return new SupplierResponse("Customer does not exist.");
         return new SupplierResponse(existingSupplier);
     }
+
+    public async Task<IEnumerable<Customer>> ListCustomersBySupplierIdAsync(int supplierId)
+    {
+        return await _supplierRepository.ListCustomersBySupplierIdAsync(supplierId);
+    }
 }

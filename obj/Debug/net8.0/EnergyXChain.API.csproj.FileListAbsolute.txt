@@ -122,3 +122,4 @@ D:\Github\EnergyXChain.API\obj\Debug\net8.0\EnergyXChain.API.pdb
 D:\Github\EnergyXChain.API\obj\Debug\net8.0\EnergyXChain.API.genruntimeconfig.cache
 D:\Github\EnergyXChain.API\obj\Debug\net8.0\ref\EnergyXChain.API.dll
 D:\Github\EnergyXChain.API\bin\Debug\net8.0\appsettings.Release.json
+D:\UPC\CICLO 2024-1\Arquitectura de Software Emergentes\Clones\EnergyXChain.API\bin\Debug\net8.0\appsettings.Release.json

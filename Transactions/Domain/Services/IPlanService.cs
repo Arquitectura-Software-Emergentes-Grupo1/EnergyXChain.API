@@ -8,4 +8,5 @@ public interface IPlanService
     Task<PlanResponse> FindAsync(int id);
     Task<PlanResponse> AddAsync(Plan newPlan);
     Task<IEnumerable<Plan>> ListAllAsync();
+    Task<IEnumerable<Plan>> ListPlansBySupplierIdAsync(int supplierId);
 }

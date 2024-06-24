@@ -7,4 +7,5 @@ public interface IPlanRepository : IBaseRepository<Plan, int>
 {
     Task<IEnumerable<Plan>> ListAllAsync();
     Task<Plan?> FindByIdAsync(int id);
+    Task<IEnumerable<Plan>> FindBySupplierIdAsync(int supplierId);
 }

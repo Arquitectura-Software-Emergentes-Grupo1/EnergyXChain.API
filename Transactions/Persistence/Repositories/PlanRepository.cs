@@ -21,4 +21,9 @@ public class PlanRepository : BaseRepository<Plan, int>, IPlanRepository
     {
         return await Entities.FindAsync(id);
     }
+
+    public async Task<IEnumerable<Plan>> FindBySupplierIdAsync(int supplierId)
+    {
+        return await Entities.Where(plan => plan.SupplierId == supplierId).ToListAsync();
+    }
 }

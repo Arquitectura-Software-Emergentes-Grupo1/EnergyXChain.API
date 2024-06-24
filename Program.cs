@@ -89,7 +89,7 @@ using (var scope = app.Services.CreateScope())
 using (var context = scope.ServiceProvider.GetService<AppDbContext>())
 {
     // context?.Database.EnsureCreated();
-    // context?.Database.EnsureDeleted();
+    context?.Database.EnsureDeleted();
     context?.Database.EnsureCreated();
 }
 

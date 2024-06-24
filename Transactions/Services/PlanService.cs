@@ -46,4 +46,9 @@ public class PlanService : IPlanService
     {
         return await _planRepository.ListAllAsync();
     }
+
+    public async Task<IEnumerable<Plan>> ListPlansBySupplierIdAsync(int supplierId)
+    {
+        return await _planRepository.FindBySupplierIdAsync(supplierId);
+    }
 }
