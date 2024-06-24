@@ -46,4 +46,12 @@ public class SupplierService : ISupplierService
     {
         return await _supplierRepository.ListAllAsync();
     }
+
+    public async Task<SupplierResponse> FindByUidAsync(string uid)
+    {
+        var existingSupplier = await _supplierRepository.FindByUid(uid);
+        if (existingSupplier == null)
+            return new SupplierResponse("Customer does not exist.");
+        return new SupplierResponse(existingSupplier);
+    }
 }

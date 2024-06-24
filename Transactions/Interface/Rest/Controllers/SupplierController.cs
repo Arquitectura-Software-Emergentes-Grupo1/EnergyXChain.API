@@ -49,4 +49,14 @@ public class SupplierController : ControllerBase
             return BadRequest(supplier.Message);
         return Ok(supplier.Resource);
     }
+    
+    [HttpGet("uid={uid}")]
+    public async Task<IActionResult> GetCustomerById(string uid)
+    {
+        var supplier = await _supplierService.FindByUidAsync(uid);
+        if (!supplier.Success)
+            return BadRequest(supplier.Message);
+        var mappedResultResource = _mapper.Map<Supplier, SupplierResource>(supplier.Resource!);
+        return Ok(mappedResultResource);
+    }
 }

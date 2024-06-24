@@ -49,4 +49,15 @@ public class CustomerController : ControllerBase
             return BadRequest(customer.Message);
         return Ok(customer.Resource);
     }
+    
+    [HttpGet("uid={uid}")]
+    public async Task<IActionResult> GetCustomerById(string uid)
+    {
+        var customer = await _customerService.FindByUidAsync(uid);
+        if (!customer.Success)
+            return BadRequest(customer.Message);
+        var mappedResultResource = _mapper.Map<Customer, CustomerResource>(customer.Resource!);
+        return Ok(mappedResultResource);
+    }
+    
 }

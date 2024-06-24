@@ -24,6 +24,7 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Supplier>().ToTable("Suppliers");
         modelBuilder.Entity<Supplier>().HasKey(supplier => supplier.Id);
         modelBuilder.Entity<Supplier>().Property(supplier => supplier.Id);
+        modelBuilder.Entity<Supplier>().Property(supplier => supplier.Uid);
         modelBuilder.Entity<Supplier>().Property(supplier => supplier.Email);
         modelBuilder.Entity<Supplier>().Property(supplier => supplier.Password);
         modelBuilder.Entity<Supplier>().Property(supplier => supplier.Name);
@@ -39,6 +40,7 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Customer>().ToTable("Customers");
         modelBuilder.Entity<Customer>().HasKey(customer => customer.Id);
         modelBuilder.Entity<Customer>().Property(customer => customer.Id);
+        modelBuilder.Entity<Customer>().Property(customer => customer.Uid);
         modelBuilder.Entity<Customer>().Property(customer => customer.Email);
         modelBuilder.Entity<Customer>().Property(customer => customer.Password);
         modelBuilder.Entity<Customer>().Property(customer => customer.Name);

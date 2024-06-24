@@ -7,4 +7,5 @@ public interface ICustomerRepository : IBaseRepository<Customer, int>
 {
     Task<IEnumerable<Customer>> ListAllAsync();
     Task<Customer?> FindByIdAsync(int id);
+    Task<Customer?> FindByUid(string uid);
 }

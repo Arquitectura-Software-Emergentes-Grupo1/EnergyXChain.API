@@ -8,4 +8,5 @@ public interface ICustomerService
     Task<CustomerResponse> FindAsync(int id);
     Task<CustomerResponse> AddAsync(Customer newCustomer);
     Task<IEnumerable<Customer>> ListAllAsync();
+    Task<CustomerResponse> FindByUidAsync(string uid);
 }
