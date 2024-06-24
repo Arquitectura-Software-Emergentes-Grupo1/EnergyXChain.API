@@ -46,4 +46,12 @@ public class CustomerService : ICustomerService
     {
         return await _customerRepository.ListAllAsync();
     }
+
+    public async Task<CustomerResponse> FindByUidAsync(string uid)
+    {
+        var existingCustomer = await _customerRepository.FindByUid(uid);
+        if (existingCustomer == null)
+            return new CustomerResponse("Customer does not exist.");
+        return new CustomerResponse(existingCustomer);
+    }
 }

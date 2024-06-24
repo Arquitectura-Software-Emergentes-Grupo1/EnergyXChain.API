@@ -21,4 +21,9 @@ public class SupplierRepository : BaseRepository<Supplier, int>, ISupplierReposi
     {
         return await Entities.FindAsync(id);
     }
+
+    public async Task<Supplier?> FindByUid(string uid)
+    {
+        return await Entities.FirstOrDefaultAsync((supplier) => supplier.Uid == uid);
+    }
 }

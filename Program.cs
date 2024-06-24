@@ -34,7 +34,7 @@ builder.Services.AddSwaggerGen(
 );
 
 // Connection String
-var connectionString = builder.Configuration.GetConnectionString("AZURE_MYSQL_CONNECTIONSTRING");
+var connectionString = builder.Configuration.GetConnectionString("EnergyXChainDbConnection");
 
 // Add DbContext
 builder.Services.AddDbContext<AppDbContext>(optionsBuilder =>
