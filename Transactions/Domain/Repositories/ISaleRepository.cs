@@ -8,4 +8,5 @@ public interface ISaleRepository: IBaseRepository<Sale, int>
     Task<IEnumerable<Sale>> ListAllAsync();
     Task<Sale?> FindByIdAsync(int id);
     Task<IEnumerable<Sale>> FindByCustomerIdAsync(int customerId);
+    Task<IEnumerable<Sale>> FindBySupplierIdAsync(int supplierId);
 }
