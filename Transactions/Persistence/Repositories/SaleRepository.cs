@@ -29,4 +29,9 @@ public class SaleRepository : BaseRepository<Sale, int>, ISaleRepository
             .Where(sale => sale.CustomerId == customerId)
             .ToListAsync();
     }
+    
+    public async Task<IEnumerable<Sale>> FindBySupplierIdAsync(int supplierId)
+    {
+        return await Entities.Include(sale => sale.Plan).Where(sale => sale.Plan.SupplierId == supplierId).ToListAsync();
+    }
 }

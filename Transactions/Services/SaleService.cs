@@ -52,4 +52,9 @@ public class SaleService : ISaleService
     {
         return await _saleRepository.ListSalesByCustomerId(customerId);
     }
+    
+    public async Task<IEnumerable<Sale>> ListSalesBySupplierId(int supplierId)
+    {
+        return await _saleRepository.FindBySupplierIdAsync(supplierId);
+    }
 }
