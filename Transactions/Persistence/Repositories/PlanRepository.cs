@@ -14,11 +14,16 @@ public class PlanRepository : BaseRepository<Plan, int>, IPlanRepository
 
     public async Task<IEnumerable<Plan>> ListAllAsync()
     {
-        return await Entities.ToListAsync();
+        return await Entities.Include(plan => plan.Supplier).ToListAsync();
     }
 
     public async Task<Plan?> FindByIdAsync(int id)
     {
-        return await Entities.FindAsync(id);
+        return await Entities.Include(p => p.Supplier).FirstOrDefaultAsync(p => p.Id == id);
+    }
+
+    public async Task<IEnumerable<Plan>> FindBySupplierIdAsync(int supplierId)
+    {
+        return await Entities.Include(plan => plan.Supplier).Where(plan => plan.SupplierId == supplierId).ToListAsync();
     }
 }

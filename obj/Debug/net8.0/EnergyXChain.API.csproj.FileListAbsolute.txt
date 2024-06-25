@@ -122,3 +122,24 @@ D:\Github\EnergyXChain.API\obj\Debug\net8.0\EnergyXChain.API.pdb
 D:\Github\EnergyXChain.API\obj\Debug\net8.0\EnergyXChain.API.genruntimeconfig.cache
 D:\Github\EnergyXChain.API\obj\Debug\net8.0\ref\EnergyXChain.API.dll
 D:\Github\EnergyXChain.API\bin\Debug\net8.0\appsettings.Release.json
+D:\UPC\CICLO 2024-1\Arquitectura de Software Emergentes\Clones\EnergyXChain.API\bin\Debug\net8.0\appsettings.Release.json
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\ADRaffy.ENSNormalize.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\NBitcoin.Secp256k1.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Nethereum.ABI.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Nethereum.Accounts.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Nethereum.BlockchainProcessing.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Nethereum.Contracts.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Nethereum.Hex.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Nethereum.JsonRpc.Client.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Nethereum.JsonRpc.RpcClient.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Nethereum.KeyStore.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Nethereum.Merkle.Patricia.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Nethereum.Model.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Nethereum.RLP.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Nethereum.RPC.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Nethereum.Signer.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Nethereum.Signer.EIP712.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Nethereum.Util.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Nethereum.Web3.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Github\EnergyXChain.API\bin\Debug\net8.0\BouncyCastle.Crypto.dll

@@ -70,6 +70,8 @@ builder.Services.AddScoped<ISaleRepository, SaleRepository>();
 builder.Services.AddScoped<IBaseRepository<Sale, int>, SaleRepository>();
 builder.Services.AddScoped<ISaleService, SaleService>();
 
+builder.Services.AddScoped<IBlockchainService, BlockchainService>();
+
 // Shared Services
 // -- Unit Of Work
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();

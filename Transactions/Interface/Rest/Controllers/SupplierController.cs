@@ -59,4 +59,12 @@ public class SupplierController : ControllerBase
         var mappedResultResource = _mapper.Map<Supplier, SupplierResource>(supplier.Resource!);
         return Ok(mappedResultResource);
     }
+
+    [HttpGet("{supplierId}/customers")]
+    public async Task<IActionResult> GetCustomersBySupplierId(int supplierId)
+    {
+        var customers = await _supplierService.ListCustomersBySupplierIdAsync(supplierId);
+        var customerResources = _mapper.Map<IEnumerable<Customer>, IEnumerable<CustomerResource>>(customers);
+        return Ok(customerResources);
+    }
 }

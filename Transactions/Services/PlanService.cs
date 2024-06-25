@@ -34,6 +34,23 @@ public class PlanService : IPlanService
         }
     }
 
+    public async Task<PlanResponse> RemoveAsync(int id)
+    {
+        var existingPlan = await _planRepository.FindAsync(id);
+        if (existingPlan == null)
+            return new PlanResponse("Plan does not exist");
+        try
+        {
+            _planRepository.Remove(existingPlan);
+            await _unitOfWork.CompleteAsync();
+            return new PlanResponse(existingPlan);
+        }
+        catch (Exception e)
+        {
+            return new PlanResponse(e.Message);
+        }
+    }
+
     public async Task<PlanResponse> FindAsync(int id)
     {
         var plan = await _planRepository.FindAsync(id);
@@ -45,5 +62,10 @@ public class PlanService : IPlanService
     public async Task<IEnumerable<Plan>> ListAllAsync()
     {
         return await _planRepository.ListAllAsync();
+    }
+
+    public async Task<IEnumerable<Plan>> ListPlansBySupplierIdAsync(int supplierId)
+    {
+        return await _planRepository.FindBySupplierIdAsync(supplierId);
     }
 }

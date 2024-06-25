@@ -51,4 +51,17 @@ public class SaleController : ControllerBase
         var saleResource = _mapper.Map<Sale, SaleResource>(sale.Resource!);
         return Ok(saleResource);
     }
+
+    [HttpGet("customer/{customerId}")]
+    public async Task<IEnumerable<SaleResource>> ListSalesByCustomer(int customerId)
+    {
+        return _mapper.Map<IEnumerable<Sale>, IEnumerable<SaleResource>>(await _saleService.ListByCustomerIdAsync(customerId));
+    }
+    
+    [HttpGet("supplier/{supplierId}")]
+    public async Task<IEnumerable<SaleResource>> GetSalesBySupplierId(int supplierId)
+    {
+        return _mapper.Map<IEnumerable<Sale>, IEnumerable<SaleResource>>(
+            await _saleService.ListSalesBySupplierId(supplierId));
+    }
 }

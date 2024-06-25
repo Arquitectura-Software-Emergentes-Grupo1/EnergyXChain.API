@@ -3,7 +3,6 @@ using EnergyXChain.API.Transactions.Domain.Models;
 using EnergyXChain.API.Transactions.Domain.Services;
 using EnergyXChain.API.Transactions.Resources.Create;
 using EnergyXChain.API.Transactions.Resources.Show;
-using EnergyXChain.API.Transactions.Services;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 using System.Net.Mime;
@@ -49,5 +48,20 @@ public class PlanController : ControllerBase
         if (!plan.Success)
             return BadRequest(plan.Message);
         return Ok(plan.Resource);
+    }
+
+    [HttpGet("supplier/{supplierId}")]
+    public async Task<IEnumerable<PlanResource>> GetPlansBySupplierId(int supplierId)
+    {
+        return _mapper.Map<IEnumerable<Plan>, IEnumerable<PlanResource>>(await _planService.ListPlansBySupplierIdAsync(supplierId));
+    }
+
+    [HttpDelete("{planId}")]
+    public async Task<IActionResult> DeletePlan(int planId)
+    {
+        var result = await _planService.RemoveAsync(planId);
+        if (!result.Success)
+            return BadRequest(result.Message);
+        return Ok("Deleted Sucessfully");
     }
 }

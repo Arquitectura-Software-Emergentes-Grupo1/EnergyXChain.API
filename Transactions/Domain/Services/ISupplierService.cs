@@ -9,4 +9,5 @@ public interface ISupplierService
     Task<SupplierResponse> AddAsync(Supplier newSupplier);
     Task<IEnumerable<Supplier>> ListAllAsync();
     Task<SupplierResponse> FindByUidAsync(string uid);
+    Task<IEnumerable<Customer>> ListCustomersBySupplierIdAsync(int supplierId);
 }

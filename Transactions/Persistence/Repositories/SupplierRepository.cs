@@ -26,4 +26,13 @@ public class SupplierRepository : BaseRepository<Supplier, int>, ISupplierReposi
     {
         return await Entities.FirstOrDefaultAsync((supplier) => supplier.Uid == uid);
     }
+
+    public async Task<IEnumerable<Customer>> ListCustomersBySupplierIdAsync(int supplierId)
+    {
+        return await AppDbContext.Sales
+            .Where(sale => sale.Plan.SupplierId == supplierId)
+            .Select(sale => sale.Customer)
+            .Distinct()
+            .ToListAsync();
+    }
 }

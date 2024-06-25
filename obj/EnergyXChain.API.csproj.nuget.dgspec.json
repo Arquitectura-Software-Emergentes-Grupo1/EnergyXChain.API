@@ -56,6 +56,10 @@
               "target": "Package",
               "version": "[8.0.6, )"
             },
+            "Nethereum.Web3": {
+              "target": "Package",
+              "version": "[4.21.0, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.2, )"

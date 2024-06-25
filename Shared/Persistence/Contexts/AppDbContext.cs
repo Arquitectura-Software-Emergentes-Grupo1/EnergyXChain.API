@@ -26,7 +26,7 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Supplier>().Property(supplier => supplier.Id);
         modelBuilder.Entity<Supplier>().Property(supplier => supplier.Uid);
         modelBuilder.Entity<Supplier>().Property(supplier => supplier.Email);
-        modelBuilder.Entity<Supplier>().Property(supplier => supplier.Password);
+        modelBuilder.Entity<Supplier>().Property(supplier => supplier.WalletAddress);
         modelBuilder.Entity<Supplier>().Property(supplier => supplier.Name);
         modelBuilder.Entity<Supplier>().Property(supplier => supplier.Description);
         modelBuilder.Entity<Supplier>().Property(supplier => supplier.Phone);
@@ -41,8 +41,8 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Customer>().HasKey(customer => customer.Id);
         modelBuilder.Entity<Customer>().Property(customer => customer.Id);
         modelBuilder.Entity<Customer>().Property(customer => customer.Uid);
+        modelBuilder.Entity<Customer>().Property(customer => customer.WalletAddress);
         modelBuilder.Entity<Customer>().Property(customer => customer.Email);
-        modelBuilder.Entity<Customer>().Property(customer => customer.Password);
         modelBuilder.Entity<Customer>().Property(customer => customer.Name);
         modelBuilder.Entity<Customer>().Property(customer => customer.Phone);
         modelBuilder.Entity<Customer>().Property(customer => customer.Age);
@@ -57,6 +57,7 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Plan>().HasKey(plan => plan.Id);
         modelBuilder.Entity<Plan>().Property(plan => plan.Id).ValueGeneratedOnAdd();
         modelBuilder.Entity<Plan>().Property(plan => plan.Name);
+        modelBuilder.Entity<Plan>().Property(plan => plan.Description);
         modelBuilder.Entity<Plan>().Property(plan => plan.Fee);
         modelBuilder.Entity<Plan>().Property(plan => plan.SupplierId);
         modelBuilder.Entity<Plan>()
