@@ -9,5 +9,6 @@ public class Customer
     public string? Phone {  get; set; }
     public string? Age {  get; set; }
 
+    public string? WalletAddress { get; set; }
     public IList<Sale> Sales { get; set; }
 }

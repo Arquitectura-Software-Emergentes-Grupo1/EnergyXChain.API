@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EnergyXChain.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46900e12b007a81d50eab74872168be03e8ab84e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d9511c96d0d840e023dcaa176c27e3146b7a68b")]
 [assembly: System.Reflection.AssemblyProductAttribute("EnergyXChain.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EnergyXChain.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

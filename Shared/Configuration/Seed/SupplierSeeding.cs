@@ -16,7 +16,8 @@ public class SupplierSeeding : IEntityTypeConfiguration<Supplier>
                 Email = "supplier1@example.com",
                 Name = "Supplier One",
                 Description = "Supplier One is known for its reliable energy plans.",
-                Phone = "123-111-1111"
+                Phone = "123-111-1111",
+                WalletAddress = "0xe3C8e5b576A33ae4FbdCedE9942954393396B16a",
             },
             new Supplier
             {

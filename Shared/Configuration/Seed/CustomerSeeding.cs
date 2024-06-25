@@ -14,6 +14,7 @@ public class CustomerSeeding : IEntityTypeConfiguration<Customer>
                 Id = 1,
                 Uid = "aaaaa",
                 Email = "john.doe@example.com",
+                WalletAddress = "0xbdF02503Cc12638303E8b4665132E8e4807266aD",
                 Name = "John Doe",
                 Phone = "123-456-7890",
                 Age = "30"
