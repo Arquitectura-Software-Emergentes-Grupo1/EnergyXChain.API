@@ -55,4 +55,13 @@ public class PlanController : ControllerBase
     {
         return _mapper.Map<IEnumerable<Plan>, IEnumerable<PlanResource>>(await _planService.ListPlansBySupplierIdAsync(supplierId));
     }
+
+    [HttpDelete("{planId}")]
+    public async Task<IActionResult> DeletePlan(int planId)
+    {
+        var result = await _planService.RemoveAsync(planId);
+        if (!result.Success)
+            return BadRequest(result.Message);
+        return Ok("Deleted Sucessfully");
+    }
 }

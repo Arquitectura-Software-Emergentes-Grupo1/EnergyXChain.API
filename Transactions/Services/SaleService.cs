@@ -47,4 +47,9 @@ public class SaleService : ISaleService
     {
         return await _saleRepository.ListAllAsync();
     }
+
+    public async Task<IEnumerable<Sale>> ListByCustomerIdAsync(int customerId)
+    {
+        return await _saleRepository.ListSalesByCustomerId(customerId);
+    }
 }
