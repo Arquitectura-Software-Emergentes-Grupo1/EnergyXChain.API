@@ -9,4 +9,5 @@ public interface ISaleService
     Task<SaleResponse> AddAsync(Sale newSale);
     Task<IEnumerable<Sale>> ListAllAsync();
     Task<IEnumerable<Sale>> ListByCustomerIdAsync(int customerId);
+    Task<IEnumerable<Sale>> ListSalesBySupplierId(int supplierId);
 }
