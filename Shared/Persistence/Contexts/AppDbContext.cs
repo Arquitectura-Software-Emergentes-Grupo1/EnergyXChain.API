@@ -55,6 +55,7 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Plan>().HasKey(plan => plan.Id);
         modelBuilder.Entity<Plan>().Property(plan => plan.Id).ValueGeneratedOnAdd();
         modelBuilder.Entity<Plan>().Property(plan => plan.Name);
+        modelBuilder.Entity<Plan>().Property(plan => plan.Description);
         modelBuilder.Entity<Plan>().Property(plan => plan.Fee);
         modelBuilder.Entity<Plan>().Property(plan => plan.SupplierId);
         modelBuilder.Entity<Plan>()

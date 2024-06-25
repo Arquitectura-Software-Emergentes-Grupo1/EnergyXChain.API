@@ -21,4 +21,9 @@ public class SaleRepository : BaseRepository<Sale, int>, ISaleRepository
     {
         return await Entities.FindAsync(id);
     }
+
+    public async Task<IEnumerable<Sale>> FindByCustomerIdAsync(int customerId)
+    {
+        return await Entities.Where(sale => sale.CustomerId == customerId).ToListAsync();
+    }
 }
